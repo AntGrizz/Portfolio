@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Header} from './components'
+import Navbar from './components/Navbar';
+import Page from './container/Page'
+
 
 const App = () => {
 
     return(
       <div className="App">
-        <Header />
-        
+        <Navbar />
+        <Page />
       </div>
     )
 }

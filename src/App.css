@@ -1,41 +1,64 @@
 @import '../node_modules/antd/dist/antd.css';
 
 
-.App {
+#head-shot{
+  margin-top: 15vh;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header{
+  margin-top: 3vh;
   text-align: center;
+  font-size: 5em;
+  color: rgb(12,44,84);
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-header{
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(-180deg);
+  float: right;
+  padding-left: 3em;
+  font-size: 1.3em;
+  margin-top: 6vh;
+  font-weight: bold;
+  color: rgb(12,44,84);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bio-row{
+  font-size: 2em;
+  color: rgb(12,44,84);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#portfolio-div{
+  margin-top: 15vh;
+  height: 75vh;
+  background-color: rgb(33,96,139);
+  width: 70%;
+  border-radius: 1%;
+}
+
+#portfolio-header{
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(-180deg);
+  float: left;
+  padding-right: 1em;
+  font-size: 1.3em;
+  margin-top: 34vh;
+  font-weight: bold;
+  color: white
+}
+
+.video-header{
+  margin-top: 8vh;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  width: 10em;
 }

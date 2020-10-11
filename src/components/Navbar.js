@@ -8,7 +8,7 @@ class Navbar extends Component {
         <Menu.Item>About</Menu.Item>
         <Menu.Item>Portfolio</Menu.Item>
         <Menu.Item>Links</Menu.Item>
-        <Menu.Item>Contact</Menu.Item>
+        <Menu.Item>Contact Me</Menu.Item>
       </Menu>
     );
   }
